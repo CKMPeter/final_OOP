@@ -1,0 +1,14 @@
+D:\oop code\finalProject_OOP\obj\Debug\net7.0\finalProject_OOP.GeneratedMSBuildEditorConfig.editorconfig
+D:\oop code\finalProject_OOP\obj\Debug\net7.0\finalProject_OOP.AssemblyInfoInputs.cache
+D:\oop code\finalProject_OOP\obj\Debug\net7.0\finalProject_OOP.AssemblyInfo.cs
+D:\oop code\finalProject_OOP\obj\Debug\net7.0\finalProject_OOP.csproj.CoreCompileInputs.cache
+D:\oop code\finalProject_OOP\bin\Debug\net7.0\finalProject_OOP.exe
+D:\oop code\finalProject_OOP\bin\Debug\net7.0\finalProject_OOP.deps.json
+D:\oop code\finalProject_OOP\bin\Debug\net7.0\finalProject_OOP.runtimeconfig.json
+D:\oop code\finalProject_OOP\bin\Debug\net7.0\finalProject_OOP.dll
+D:\oop code\finalProject_OOP\bin\Debug\net7.0\finalProject_OOP.pdb
+D:\oop code\finalProject_OOP\obj\Debug\net7.0\finalProject_OOP.dll
+D:\oop code\finalProject_OOP\obj\Debug\net7.0\refint\finalProject_OOP.dll
+D:\oop code\finalProject_OOP\obj\Debug\net7.0\finalProject_OOP.pdb
+D:\oop code\finalProject_OOP\obj\Debug\net7.0\finalProject_OOP.genruntimeconfig.cache
+D:\oop code\finalProject_OOP\obj\Debug\net7.0\ref\finalProject_OOP.dll
