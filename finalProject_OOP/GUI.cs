@@ -75,7 +75,7 @@ namespace finalProject_OOP
                 "||\t3. Author\t||\n" +
                 "||\t4. ISBN\t\t||\n" +
                 "||\t5. Availability\t||\n" +
-                "||\t6. Content\t\t||\n");
+                "||\t6. Content\t||\n");
             Console.WriteLine("==========================\n");
             Console.Write("Select: ");
             int mode = Convert.ToInt32(Console.ReadLine());

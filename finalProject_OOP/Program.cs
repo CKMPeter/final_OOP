@@ -62,7 +62,7 @@ namespace finalProject_OOP
                                 break;
                             case 3:
                                 RandomFunction.PrintBook(books);
-                                Console.WriteLine("Select: "); int select = Convert.ToInt32(Console.ReadLine());
+                                Console.WriteLine("Select id: "); int select = Convert.ToInt32(Console.ReadLine());
                                 Console.Clear();
                                 if (select < books.Count)
                                 {
@@ -72,10 +72,10 @@ namespace finalProject_OOP
                                 break;
                             case 4:
                                 RandomFunction.PrintBook(books);
-                                Console.WriteLine("Select: "); int select_ = Convert.ToInt32(Console.ReadLine());
+                                Console.WriteLine("Select id: "); int select_ = Convert.ToInt32(Console.ReadLine());
                                 Console.Clear();
                                 if (select_ <= total)
-                                    Librarian.RemoveBook(path, select_);
+                                    Librarian.RemoveBook(path, select_, books);
                                 break;
                             case 5:
                                 Librarian.PrintCustomer(CusList);
@@ -107,7 +107,7 @@ namespace finalProject_OOP
                         if (selectID == -1)
                         {
                             Librarian.PrintCustomer(CusList);
-                            Console.WriteLine("Select: ");
+                            Console.WriteLine("Select id: ");
                             try
                             {
                                 selectID = Convert.ToInt32(Console.ReadLine());
@@ -143,7 +143,7 @@ namespace finalProject_OOP
                                         case 1:
                                             RandomFunction.PrintBook(books);
                                             chosing = 1;
-                                            Console.WriteLine("Select: ");
+                                            Console.WriteLine("Select id: ");
                                             selectBook = Convert.ToInt32(Console.ReadLine());
                                             Console.Clear();
                                             break;
@@ -163,7 +163,7 @@ namespace finalProject_OOP
                                                     searchTitle = GUI.BookSearch();
                                                     RandomFunction.ShowSeletedBook(searchTitle, books, method);
                                                     chosing = 1;
-                                                    Console.WriteLine("Select: ");
+                                                    Console.WriteLine("Select id: ");
                                                     selectBook = Convert.ToInt32(Console.ReadLine());
                                                     break;
                                                 default:
@@ -189,7 +189,7 @@ namespace finalProject_OOP
                                                     case 1:
                                                         RandomFunction.PrintBook(books);
                                                         chosing = 1;
-                                                        Console.WriteLine("Select: ");
+                                                        Console.WriteLine("Select id: ");
                                                         selectBook = Convert.ToInt32(Console.ReadLine());
                                                         books1.Add(books[selectBook]);
                                                         Console.Clear();
@@ -203,14 +203,14 @@ namespace finalProject_OOP
                                                                 searchTitle = GUI.BookSearch();
                                                                 RandomFunction.ShowSeletedBook(searchTitle, books, method);
                                                                 chosing = 1;
-                                                                Console.WriteLine("Select: ");
+                                                                Console.WriteLine("Select id: ");
                                                                 selectBook = Convert.ToInt32(Console.ReadLine());
                                                                 break;
                                                             case 2:
                                                                 searchTitle = GUI.BookSearch();
                                                                 RandomFunction.ShowSeletedBook(searchTitle, books, method);
                                                                 chosing = 1;
-                                                                Console.WriteLine("Select: ");
+                                                                Console.WriteLine("Select id: ");
                                                                 selectBook = Convert.ToInt32(Console.ReadLine());
                                                                 break;
                                                             default:

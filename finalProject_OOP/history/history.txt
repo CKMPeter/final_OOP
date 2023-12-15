@@ -33,3 +33,19 @@ Info: Minh, Title: Harry Porter, Action: Borrow
 Info: Minh, Title: The Crystal Guardian, Action: Borrow
 Info: Minh, Title: Harry Porter, Action: Return
 Info: Minh, Title: The Crystal Guardian, Action: Return
+Info: Minh, Title: The Elven Prophecy, Action: Borrow
+Info: Minh, Title: The Labyrinth Code, Action: Borrow
+Info: Minh, Title: The Elven Prophecy, Action: Return
+Info: Minh, Title: The Labyrinth Code, Action: Return
+Info: Minh, Title: Starlight Odyssey, Action: Borrow
+Info: Minh, Title: Starlight Odyssey, Action: Return
+Info: Kien, Title: Moonlit Serenade, Action: Borrow
+Info: Kien, Title: Moonlit Serenade, Action: Return
+Info: Minh, Title: Harry Porter, Action: Borrow
+Info: Minh, Title: The Enigmatic Heir, Action: Borrow
+Info: Minh, Title: Harry Porter, Action: Return
+Info: Minh, Title: The Enigmatic Heir, Action: Return
+Info: Minh, Title: Harry Porter, Action: Borrow
+Info: Minh, Title: Harry Porter, Action: Return
+Info: Minh, Title: Harry Porter, Action: Borrow
+Info: Minh, Title: Harry Porter, Action: Return

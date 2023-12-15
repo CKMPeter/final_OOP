@@ -80,13 +80,14 @@ namespace finalProject_OOP
             }
         }
 
-        static public void RemoveBook(string filePath, int no)
+        static public void RemoveBook(string filePath, int no, List<Book> list)
         {
             string[] lines_ = File.ReadAllLines(filePath);
             if (no <= 0)
             {
                 no = 1;
             }
+            list.RemoveAt(no);
             for(int i = no + 1; i <= lines_.Length; i++)
             {
                 int j = i + 1;
