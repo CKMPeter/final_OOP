@@ -88,11 +88,16 @@ namespace finalProject_OOP
                 no = 1;
             }
             list.RemoveAt(no);
-            for(int i = no + 1; i <= lines_.Length; i++)
+            for(int i = no; i <= lines_.Length; i++)
             {
                 int j = i + 1;
-                if (j<lines_.Length)
+
+                if (j < lines_.Length)
+                {
                     lines_[i] = lines_[j];
+                    if (i < list.Count)
+                        list[i].id--;
+                }
             }
             lines_[lines_.Length - 1] = "";
             try
