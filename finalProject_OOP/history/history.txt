@@ -29,3 +29,7 @@ Info: Minh, Title: Love Beyond the Stars, Action: Borrow
 Info: Minh, Title: Moonlit Serenade, Action: Borrow
 Info: Minh, Title: Starlight Odyssey, Action: Borrow
 Info: Minh, Title: Love Beyond the Stars, Action: Borrow
+Info: Minh, Title: Harry Porter, Action: Borrow
+Info: Minh, Title: The Crystal Guardian, Action: Borrow
+Info: Minh, Title: Harry Porter, Action: Return
+Info: Minh, Title: The Crystal Guardian, Action: Return

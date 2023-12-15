@@ -29,6 +29,8 @@ namespace finalProject_OOP
             books = Librarian.readFile(path, total++, true);
             total = books.Count;
             CusList = RandomFunction.readCusInfoCSV(path1, books);
+            totalCus = CusList.Count;
+            totalCus += 1;
 
 
             //hardcode for testing==========================
@@ -80,7 +82,6 @@ namespace finalProject_OOP
                                 GUI.WaitAndClear();
                                 break;
                             case 6:
-                                totalCus = CusList.Count;
                                 totalCus++;
                                 Customer NewCus = GUI.InputNewCustomer(totalCus);
                                 CusList.Add(NewCus);
@@ -90,6 +91,7 @@ namespace finalProject_OOP
                             case 7:
                                 Librarian.PrintCustomer(CusList);
                                 Console.WriteLine("Select: "); int select__ = Convert.ToInt32(Console.ReadLine());
+                                totalCus--;
                                 RandomFunction.RemoveCus(CusList, select__);
                                 RandomFunction.RemoveCusCSV(path1,CusList, select__);
                                 Console.Clear();
